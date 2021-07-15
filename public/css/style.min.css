@@ -1,0 +1,191 @@
+html {
+    height: 100%;
+}
+body {
+      background-image: url("../images/HOME-BACKGROUND-IMG.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      min-height: 100%;
+      position: relative;
+}
+
+@font-face {
+   font-family: Glyphicons Halflings;
+   src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+
+/*===================================> Nav Bar <===================================*/
+.bg-transparence{
+    background-color:#faf8f800;
+
+}
+/* Bootstrap 4 text input with search icon */
+.has-search .form-control {
+    padding-right: 2.875rem;
+    border-radius: 30px;
+    width:100%;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    /* border-left:1px solid #f2f2f2; */
+    padding: 1px;
+}
+
+.has-search ,.nav-search{
+    width:100% !important;
+}
+.horizantial-menu{
+    padding:0px;
+}
+.horizantial-menu>li{
+    display:inline-block;
+    font-size: 10px;
+
+}
+.w-40{
+    width:40%;
+}
+.w-30{
+    width:30%;
+}
+.w-60{
+    width:60%;
+}
+.fa-search {
+    color:#d3d3d3 !important;
+}
+.half-border:after {
+  content : "";
+  position: absolute;
+  left    : 0;
+  z-index: 100;
+  top  : 8px;
+  width  : 1px;
+  height   : 60%;  /* or 100px */
+  background: #d3d3d3;
+}
+ .nav-item{
+     position: relative;
+ }
+.navbar-dark .navbar-nav .nav-link ,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover ,.main-color{
+    color: #4f93bf;
+}
+.subject-color{
+    color: #777676!important;
+}
+.active>.nav-link{
+    color:#dc3545 !important;
+}
+#NavModel .modal-header,#registeration_modal .modal-header{
+    padding: 30px;
+    border:none;
+}
+#NavModel .modal-header .modal-title ,#registeration_modal  .modal-header .modal-title{
+    color: #0c76ba;
+    padding-bottom: 15px;
+    font-weight: bold;
+    /* border-bottom:1px solid #8dd4f1; */
+}
+#NavModel .modal-header hr ,#registeration_modal .modal-header hr{
+    width: 60%;
+    border-bottom:1px solid #8dd4f1;
+}
+#NavModel  .modal-body ,#registeration_modal .modal-body{
+    padding: 4rem;
+    padding-top: 0;
+    color: #777676;
+    height:30rem;
+    overflow-y: scroll;
+
+}
+#NavModel  ::-webkit-scrollbar {
+  width: 1px;
+}
+/* Track */
+#NavModel ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+#NavModel ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+#NavModel ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*============== collapse stylr ==============*/
+.collapse-header {
+    background-color: #fff;
+}
+.collapse .card-body{
+    background-color: #0000001f;
+}
+.collapse-header a{
+    width: 100%;
+    text-align: start;
+    text-decoration:none;
+    box-shadow: 0 0 0 0.2rem #007bff00 !important;
+
+}
+.collapse-header a:link,.collapse-header a:visited,.collapse-header a:hover,.collapse-header a:active{
+text-decoration:none;
+}
+.collapse-header  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: left;
+   transition: all 0.5s;
+}
+.collapse-header.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+/*=========================================>home Body <=============================================*/
+.nurse-container{
+    transform: translateY(20%);
+}
+.nurse-img{
+    max-height: 34rem;
+}
+.register-card{
+    border: none;
+    border-radius: 10px;
+    width:90%;
+        transform: translateY(33%)
+}
+.doctor-card{
+    /* transform: translateY(33%) rotate(-1deg) skew(-2deg, 0deg); */
+
+}
+.appointment-card{
+    /* transform: translateY(33%) rotate(1deg) skew(2deg, 0deg); */
+}
+.bg-red{
+    background-color: red;
+}
+.text-red{
+    color:red;
+}
+
+.register-card .card-header{
+    border:none;
+    border-radius: 10px;
+    padding: 30px;
+}
+.register-card .card-header img{
+    max-height: 90px;
+    padding: 20px 0;
+}
+.register-card .card-body{
+    border-radius: 0 0 10px 10px;
+}
